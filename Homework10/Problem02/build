@@ -1,0 +1,4 @@
+echo "Building File"
+./led_Set
+g++ Analogin.cpp GPIO.cpp makeLEDs.cpp test_all_App.cpp -o test_all_App
+echo "Finished Building"

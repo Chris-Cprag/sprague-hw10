@@ -1,0 +1,5 @@
+echo "Configuring LED's"
+config-pin p9.12 gpio
+echo "out" > /sys/class/gpio/gpio60/direction
+config-pin p8.16 gpio_pu
+echo "Finished Configuration"

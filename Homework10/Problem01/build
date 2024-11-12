@@ -1,0 +1,3 @@
+echo "Building File"
+g++ -Wall Analogin.cpp test_analog.cpp -o test_analog
+echo "Finished Building"
